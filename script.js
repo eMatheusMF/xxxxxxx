@@ -5,6 +5,13 @@ function fecharlogin()   {
     document.getElementById('modal').style.top = "-100%";
 }
 
+function abrircadastro()   {
+    document.getElementById('modal segundo').style.top = "0%";
+}
+function fecharcadastro()   {
+    document.getElementById('modal segundo').style.top = "-100%";
+}
+
 const api = {
     key: "b1acd38efcd959af9979088d310b48a2",
     base: "https://api.openweathermap.org/data/2.5/",

@@ -100,13 +100,13 @@ small{
 .cabacalho{
   height: 125px;
   width: 100%;
-  margin: 0%;
+  margin-top: 10%;
   color: #000000;
 }
 
 .close{
   font-size: 22px;
-  margin-right: 20px;
+  margin: 20px;
   transition: 350ms;
   color: #000000;
   cursor: pointer;
@@ -119,13 +119,10 @@ small{
 }
 
 .log{
-  font-size: 46px;
-  margin: 17px;
-  margin-left: 10%;
+  font-size: 70px;
 }
 
 #textForm2{
-  margin-top: 30px;
   margin-bottom: 10px;
   font-size: 16px;
   height: 30px;
@@ -142,6 +139,7 @@ small{
 
 .emailsenha{
   font-size: 20px;
+  margin-top: 10%;
 }
 
 .ema{
@@ -163,7 +161,7 @@ small{
 }
 
 .botaoo{
-  margin: 10px;
+  margin-top: 5%;
   height: 50px;
   width: 40%;
   border-radius: 50px;
@@ -227,7 +225,7 @@ small{
 
 .flutuante{
   width: 100%;
-  margin-top: 20px;
+  margin-top: 5%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -235,8 +233,8 @@ small{
 }
 
 .branco1 {
-  height: 380px;
-  width: 26%;
+  height: 420px;
+  width: 30%;
   background-color: #ffffff;
   color: #404040;
   border-radius: 7px;
@@ -246,7 +244,7 @@ small{
 }
 
 .linha1 {
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 18px;
   line-height: 26px;
 }
@@ -378,39 +376,6 @@ small{
   font-size: 14px;
 }
 
-.branco2 {
-  display: flex;
-  height: 380px;
-  width: 55%;
-  background-color: #ffffff;
-  margin-left: 30px;
-  border-radius: 7px;
-}
-
-.imagem{
-  float: left;
-  height: 100%;
-  width: 73%;
-}
-
-.noticia{
-  text-align: left;
-  margin-top: 20px;
-  margin-right: 5px;
-  margin-left: 50%;
-}
-
-.um{
-  font-size: 24px;
-  color: #404040;
-}
-
-.dois{
-  font-size: 14px;
-  line-height: 25px;
-  color: #868585;
-}
-
 .logoclima:hover{
   transition: background-color 1s;
   opacity: 0.8;
@@ -439,18 +404,6 @@ small{
   color: #ffffff;
 }
 
-.imagem:hover{
-  transition: background-color 1s;
-  opacity: 0.8;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.noticia:hover{
-  transition: background-color 1s;
-  opacity: 0.8;
-  text-decoration: none;
-}
 
 @media screen and (max-width: 1075px) {
 
@@ -488,37 +441,6 @@ small{
     height:400px;
   }
   
-  .branco2{
-      width:60%;
-      height:650px;
-      margin-top: 30px;
-      margin-bottom: 25px;
-      margin-left: 0px;
-  }
-
-  .imagem{
-    height: 60%;
-    width: 100%;
-  }
-
-  .noticia{
-    text-align: left;
-    margin: 3%;
-  }
-
-  .um{
-    font-size: 26px;
-    line-height: 30px;
-    color: #404040;
-    margin-top: 440px;
-  }
-  
-  .dois{
-    font-size: 15px;
-    line-height: 25px;
-    color: #868585;
-  }
-}
 
 @media screen and (max-width: 650px) {
 
